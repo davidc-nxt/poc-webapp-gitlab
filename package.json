@@ -1,0 +1,16 @@
+{
+  "name": "poc-webapp-gitlab",
+  "version": "1.0.0",
+  "description": "GitOps POC application for GitLab platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": ["gitops", "poc", "gitlab", "kubernetes"],
+  "author": "GitOps POC",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
