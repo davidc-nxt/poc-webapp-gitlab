@@ -59,4 +59,4 @@ server.listen(port, () => {
   console.log(`GITLAB GitOps POC server running on port ${port}`);
   console.log(`Commit: ${process.env.COMMIT_SHA || 'unknown'}`);
   console.log(`Image: ${process.env.IMAGE_NAME || 'unknown'}`);
-}); 
+}); // Updated for GitLab test: Tue Jul  8 12:05:57 EDT 2025
